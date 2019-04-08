@@ -7,9 +7,9 @@ const settings = {}
 keys.forEach((k, i) => { settings[k.substring(PREFIX.length)] = vals[i] })
 
 const defaults = {
-  PORT: 3000,
-  TRYTON_URL: 'http://localhost:8000',
-  TRYTON_DB: 'coog',
+  PORT: 3001,
+  TRYTON_URL: 'http://localhost:8999',
+  TRYTON_DB: 'axelliance',
   TRYTON_USERNAME: 'admin',
   TRYTON_PASSWORD: 'admin',
   HASH_METHOD: 'RSA-SHA1',
